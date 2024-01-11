@@ -15,22 +15,3 @@ logging.basicConfig(
 
 
 )
-
-
-if __name__ =="__main__":
-    logging.info("Logger has started")
-    
-    
-    
-
-
-# import logging
-# import structlog
-
-# log = structlog.get_logger()
-
-# logging.basicConfig(
-#     filename="logs.log",
-#     level=logging.INFO,
-#     format="%(asctime)s : %(levelname)s : %(message)s)",
-# )

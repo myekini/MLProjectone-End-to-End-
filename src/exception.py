@@ -10,7 +10,6 @@ def error_message_detail(error, error_detail:sys):
 
 
 
-
 class CustomException(Exception):
     def __init__(self, error_message, error_detail:sys):
         super().__init__(error_message)
@@ -20,11 +19,3 @@ class CustomException(Exception):
         return self.error_message
     
     
-    
-if __name__ =="__main__":
-    try:
-        a =1 
-        b = 0
-        c = a/b
-    except Exception as error:
-        raise CustomException(error, sys)
